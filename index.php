@@ -8,6 +8,32 @@
   <body>
     <!-- sezione header -->
     <header>
+      <div class="top-header">
+
+        <div class="logo">
+          <img alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" srcset="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_74x24dp.png 2x" >
+        </div>
+        <div class="policies">
+          Privacy e Termini
+        </div>
+      </div>
+
+      <div class="bottom-header">
+
+        <nav>
+          <ul>
+            <li>Introduzione</li>
+            <li>Norme sulla privacy</li>
+            <li>Termini di servizio</li>
+            <li>Tecnologie</li>
+            <li>Domande frequenti</li>
+          </ul>
+        </nav>
+        <div class="myaccount">
+          Account Google
+        </div>
+
+      </div>
 
     </header>
     <!-- sezione contenuti testuali -->

@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  list-style: none;
 }
 
 /* FONTS */
@@ -34,4 +35,8 @@
   font-family: Roboto,arial,sans-serif;
   font-size: 14px;
   font-weight: 400;
+}
+
+.top-header, .bottom-header, nav ul{
+  display: flex;
 }
