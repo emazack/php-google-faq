@@ -45,14 +45,13 @@
         ],
       ];
        ?>
-
+       <!-- gestione del print delle domande e risposte in pagina -->
       <?php
       foreach ($faqs as $faq) {
         foreach ($faq as $domanda => $risposta) {
           echo $domanda;
           echo "<br>";
           echo $risposta;
-          echo "<hr>";
         }
       }
        ?>

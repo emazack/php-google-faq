@@ -3,3 +3,35 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+/* FONTS */
+
+.top-title-text {
+  color: #5f6368;
+  font-family: "product sans","open sans",arial,sans-serif;
+  font-weight: 400;
+}
+
+.nav-bar-text {
+  color: #5f6368;
+  font-family: 'Google Sans',sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1.43;
+}
+
+.faq-question-text{
+  color: black;
+  font-family: 'Google Sans',sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.faq-asware-text{
+  color: rgba(0,0,0,0.87);
+  font-family: Roboto,arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
