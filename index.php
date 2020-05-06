@@ -35,6 +35,8 @@
 
       </div>
 
+      <hr>
+
     </header>
     <!-- sezione contenuti testuali -->
     <section>
@@ -72,15 +74,29 @@
       ];
        ?>
        <!-- gestione del print delle domande e risposte in pagina -->
-      <?php
-      foreach ($faqs as $faq) {
-        foreach ($faq as $domanda => $risposta) {
-          echo $domanda;
-          echo "<br>";
-          echo $risposta;
-        }
-      }
-       ?>
+       <div class="container">
+
+         <?php
+         foreach ($faqs as $faq) {
+           foreach ($faq as $domanda => $risposta) {
+
+             echo
+             '<div class="domanda">
+             <h1>' . $domanda . '</h1>
+             </div>';
+
+             echo '<br>';
+
+             echo
+             '<div class="risposta">
+             <p>' . $risposta . '</p>
+             </div>';
+
+             echo '<br>';
+           }
+         };
+         ?>
+       </div>
 
     </section>
 

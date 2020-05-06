@@ -40,3 +40,19 @@
 .top-header, .bottom-header, nav ul{
   display: flex;
 }
+
+.bottom-header{
+  justify-content: space-between;
+}
+
+/* ////////////////////////////////////////////// */
+
+section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  width: 50%;
+}
