@@ -11,30 +11,32 @@
   color: #5f6368;
   font-family: "product sans","open sans",arial,sans-serif;
   font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
 }
 
 .nav-bar-text {
   color: #5f6368;
   font-family: 'Google Sans',sans-serif;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 550;
   letter-spacing: 0;
   line-height: 1.43;
 }
 
 .faq-question-text{
-  color: black;
+  color: #3c4043;
   font-family: 'Google Sans',sans-serif;
-  font-weight: 500;
-  font-size: 24px;
+  font-size: 15px;
   line-height: 32px;
 }
 
-.faq-asware-text{
+.faq-answare-text{
   color: rgba(0,0,0,0.87);
   font-family: Roboto,arial,sans-serif;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 23px;
 }
 
 .top-header, .bottom-header, nav ul{
