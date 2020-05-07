@@ -70,5 +70,29 @@
 
     </section>
 
+    <footer>
+
+      <div class="container">
+        <div class="footer-sx-menu">
+          <span>Google</span>
+          <span>Tutto su Google</span>
+          <span>Privacy</span>
+          <span>Termini</span>
+        </div>
+
+        <div class="footer-sx-lingua">
+          <div class="icona-mondo">
+            
+          </div>
+          <div class="selettore-lingua">
+
+          </div>
+        </div>
+      </div>
+
+    </footer>
+
+
+
   </body>
 </html>
