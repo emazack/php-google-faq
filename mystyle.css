@@ -50,10 +50,15 @@ header{
   top: 0;
   width: 100%;
   background-color: white;
+  border-bottom: 1px solid rgba(151,151,151,0.5);
 }
 
 .top-header, .bottom-header{
   padding: 15px;
+}
+
+.bottom-header{
+  padding-bottom: 0px;
 }
 
 .logo{
@@ -70,6 +75,12 @@ nav ul li{
 
 .bottom-header{
   justify-content: space-between;
+}
+
+.nav-menu-selected{
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+  padding-bottom: 1px;
 }
 
 /* /////////////////// SECTION /////////////////////// */
